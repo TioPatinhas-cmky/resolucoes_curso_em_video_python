@@ -1,0 +1,6 @@
+número = str(input('digite um número de 4 algarismos: ')) 
+print('analisando o número {}'.format(número))
+print('únidade: {}'.format(número[3]))
+print('dezena: {}'.format(número[2]))
+print('centena: {}'.format(número[1]))
+print('milhar: {}'.format(número[0]))
